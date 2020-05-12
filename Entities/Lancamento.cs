@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Entities
 {
-    class Lancamento
+    public class Lancamento
     {
+        public Chamado chamado { get; set; }
+        public DateTime data { get; set; }
+        public List<Status> status { get; set; }
     }
 }

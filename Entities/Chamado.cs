@@ -12,6 +12,6 @@ namespace Entities
         public string descricao { get; set; }
         public DateTime dateAbertura { get; set; }
         public double custo { get; set; }
-
+        public List<Lancamento> lancamentos { get; set; }
     }
 }
