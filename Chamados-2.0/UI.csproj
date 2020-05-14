@@ -46,14 +46,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="frmAlterarChamado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmAlterarChamado.Designer.cs">
+      <DependentUpon>frmAlterarChamado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIncluirChamado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIncluirChamado.Designer.cs">
+      <DependentUpon>frmIncluirChamado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListaChamado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListaChamado.Designer.cs">
+      <DependentUpon>frmListaChamado.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAlterarChamado.resx">
+      <DependentUpon>frmAlterarChamado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIncluirChamado.resx">
+      <DependentUpon>frmIncluirChamado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListaChamado.resx">
+      <DependentUpon>frmListaChamado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
