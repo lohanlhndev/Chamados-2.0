@@ -9,7 +9,7 @@ using Utils;
 
 namespace Controllers
 {
-    class ChamadoController
+    public class ChamadoController
     {
 
         public List<Chamado> Listar(Chamado objEntrada)

@@ -62,6 +62,7 @@
             this.brnSalvar.TabIndex = 2;
             this.brnSalvar.Text = "Salvar";
             this.brnSalvar.UseVisualStyleBackColor = true;
+            this.brnSalvar.Click += new System.EventHandler(this.brnSalvar_Click);
             // 
             // lblCusto
             // 
@@ -96,6 +97,7 @@
             this.btnCancelar.TabIndex = 7;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // txtData
             // 
